@@ -1,6 +1,6 @@
 # Flexile
 
-Contractor payments as easy as 1-2-3.
+Contractor payments are as easy as 1-2-3.
 
 ## Setup
 
@@ -44,7 +44,7 @@ Likely caused by the `bin/setup` script failing silently due to lack of Postgres
 
 **Resolution:** Re-running `bin/dev` resolved it but data wasn't seeded properly, so had to run `db:reset`
 
-Likely caused by rails attempting to connect before Redis had fully started.
+Likely caused by Rails attempting to connect before Redis had fully started.
 
 ## Testing
 
